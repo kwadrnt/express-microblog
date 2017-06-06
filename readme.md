@@ -14,7 +14,7 @@
   
 * Set up a persistent database to store blog posts and comments. Blog posts and comments should have separate Mongoose schemas.  Blog posts should at minimum have a `title` and `description`. Comments should have `content`.
 
-* Use AJAX and Handlebars templating to set up a website interface. Using this interface, **a user should be able to:**
+* Use AJAX and write client-side "templating" functions (with string template literals) to set up a website interface. Using this interface, **a user should be able to:**
   * See a list of all blog posts
   * Create a new blog post
   * Create a comment for a blog post
@@ -26,6 +26,7 @@
 ## Bonus
 
 * Prevent invalid data from being saved into the database, and handle errors in your API routes.
+* Add a User model and incorporate **local** authentication or one of the oauth **provider** strategies through [Passport.js](http://passportjs.org/docs).
 * Build a "likes" functionality that lets users "upvote" blog posts.
 * Add a "category" attribute to your blog posts. When a user clicks on a category, take them to a page that displays all the blog posts that have that category.
 
@@ -35,7 +36,6 @@
 2. `npm init` to get started. You'll need to install the following node modules:
   * `express`
   * `body-parser`
-  * `hbs`
   * `mongoose`
 3. Use Postman to test and debug your API routes. Make sure you are always `console.log`-ing data that comes back from your API when you make an AJAX call before you write any other code.
-4. Commit frequently.  When you are finished with this work for the morning, push your work to GitHub and submit a pull request to the class version of the repository. 
+4. Commit frequently.  When you are finished with this work for the morning, push your work to GitHub.
