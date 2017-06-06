@@ -32,10 +32,11 @@
 
 ## Tips for Getting Started
 
-1. Fork and clone this directory.
-2. `npm init` to get started. You'll need to install the following node modules:
+1. Create a new directory for this project, and initialize a git repository in that directory. 
+2. Add a README with a link to this page in case you want to reference it later, and make your first commit.
+3. `npm init` to get your Node.js project started. You'll need to install the following node modules:
   * `express`
   * `body-parser`
   * `mongoose`
-3. Use Postman to test and debug your API routes. Make sure you are always `console.log`-ing data that comes back from your API when you make an AJAX call before you write any other code.
-4. Commit frequently.  When you are finished with this work for the morning, push your work to GitHub.
+4. Use Postman or `curl` to test and debug your API routes. Make sure you are always `console.log`-ing data that comes back from your API when you make an AJAX call before you write any other code that relies on that data. 
+5. Commit frequently.  When you are finished with this work for the morning, push your work to GitHub.
